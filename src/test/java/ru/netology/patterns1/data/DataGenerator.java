@@ -19,7 +19,7 @@ public class DataGenerator {
     public static String generateCity() {
         //метод генерации города без faker,
         //потому что faker не умеет генерировать города, являющиеся администр центрами
-        var cities = new String[]{"Москва, Самара, Оренбург, Казань, Тюмень, Екатеринбург, Ярославль"};
+        var cities = new String[]{"Москва", "Самара", "Екатеринбург", "Сочи", "Тюмень", "Ярославль", "Оренбург"};
         return cities[new Random().nextInt(cities.length)]; //выбор случайного элемента из массива
     }
 
